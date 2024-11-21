@@ -20,13 +20,13 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="produtos.jsp">Produtos</a></li>
                         <li><a href="contato.html">Contato</a></li>
-                        <li><a href="conta.html">Conta</a></li>
+                        <li><a href="conta.jsp">Conta</a></li>
                     </ul>
                 </nav>
-                <a href="carrinho.html"><img src="img/cart.png" width="30px" height="30px"></a>
+                <a href="carrinho.jsp"><img src="img/cart.png" width="30px" height="30px"></a>
             </div>
         </div>
     </header>

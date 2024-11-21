@@ -22,13 +22,13 @@
     <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="img/logovesty.png" width="125px"></a>
+                    <a href="index.jsp"><img src="img/logovesty.png" width="125px"></a>
                 </div>
             <nav>
                 <ul>
                     
                     
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.jsp">Home</a></li>
                     
                     <% if ( login.equalsIgnoreCase("admin")) {
                                out.print("<li><a href='javaJSP/produtoForm.jsp'> Estoque </a></li>");
@@ -36,7 +36,7 @@
                                
                         }
                         else  {
-                               out.print("<li><a href='produtos.jsp'>produtos</a></li>");
+                               out.print("<li><a href='produtos.jsp'>Produtos</a></li>");
                         }
                     %>
                     
@@ -45,14 +45,14 @@
                     <li><a href="conta.html">Conta</a></li>
                 </ul>
             </nav>
-            <a href="carrinho.html"><img src="img/cart.png" width="30px" height="30px"></a>
+            <a href="carrinho.jsp"><img src="img/cart.png" width="30px" height="30px"></a>
         </div>
         <div class="row">
             <div class="col-2">
                 <h1>Proporcione ao seu filho<br> um novo estilo.</h1>
                 <p>Roupas com estilo e conforto, para crianças de
                     todas as idades, <br>com mobilidade e conforto. </p>
-                    <a href="produtos.html" class="btn">Compre Agora &#8594;</a>
+                    <a href="produtos.jsp" class="btn">Compre Agora &#8594;</a>
             </div>
             <div class="col-2">
                 <img src="img/imagem1.png">
